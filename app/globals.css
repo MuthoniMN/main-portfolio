@@ -18,6 +18,7 @@
 
 body {
   background: #f4dbdb;
+  overflow: hidden;
 }
 
 h1{
