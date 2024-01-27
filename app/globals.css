@@ -31,9 +31,11 @@ h1{
   }
 }
 .btn{
-  max-width: 200px;
+  width: 20%;
+  min-width: 225px;
   padding: 4px 24px;
   border-radius: 16px;
+  text-align: center;
   font-weight: bold;
 }
 .main-btn{
