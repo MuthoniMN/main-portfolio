@@ -30,6 +30,21 @@ h1{
     text-wrap: balance;
   }
 }
+.btn{
+  max-width: 200px;
+  padding: 4px 24px;
+  border-radius: 16px;
+  font-weight: bold;
+}
+.main-btn{
+  color: white;
+  background: #ce101d;
+}
+.primary-btn{
+  background: #FAB4CB;
+  color: #ce101d;
+  border: 2px solid #ce101d;
+}
 
 .loading-page{
   background: #333;
