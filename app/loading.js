@@ -1,11 +1,14 @@
 "use client"
 import { motion } from "framer-motion"
+import { Josefin_Sans } from "next/font/google"
+
+const josefin_Sans = Josefin_Sans({subsets: ['latin']})
 
 export default function Loading(){
     let text = "MICHELLE NDIANGUI".split("")
     return (
         <section className="loading-page">
-            <h1 className={josefin_Sans.className}  style={{fontSize: "36px", letterSpacing: "3.5px"}}>
+            <h2 className={josefin_Sans.className}  style={{fontSize: "36px", letterSpacing: "3.5px"}}>
                 {text.map((a, i) => (
                     <motion.span 
                         initial={{opacity: 0}}
@@ -17,7 +20,7 @@ export default function Loading(){
                         key={i}
                     >{a}</motion.span>
                 ))}
-            </h1>
+            </h2>
         </section>
     )
 }
