@@ -30,7 +30,7 @@ export default function Home(){
     return (
         <section>
             <Navbar links={navItems} />
-            <h1 className={`${bungee_shade.className} text-center text-4xl sm:text-8xl lg:text-9xl uppercase`} style={{color: "#CE101D"}}>Michelle<br />Ndiangui</h1>
+            <h1 className={`${bungee_shade.className} text-center text-4xl xs:text-6xl sm:text-8xl lg:text-9xl uppercase`} style={{color: "#CE101D"}}>Michelle<br />Ndiangui</h1>
         </section>
     )
 }
